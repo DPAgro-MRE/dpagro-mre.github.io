@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-body {
+body, html{
+  height: 100%;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -159,10 +161,17 @@ body {
 }
 
 /* CSS for footer */
+.content{
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
 .footer {
-  position: flex;
+  height: 50px;
+  position: relative;
   padding: 20px 0;
   display: flex;
+  bottom: 0;
   justify-content: space-between;
   align-items: center;
   background-color: #16214A;
