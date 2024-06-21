@@ -4,29 +4,34 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Divisão de Política Agrícola</title>
   <link rel="stylesheet" href="css/index.css">
   <link rel="icon" type="images/x-icon"  href="images/trigo_portaldpagro.svg">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
   <header class="header">
-    <img src="images/logo.png" alt="logo_ministério">
+    <img src="images/logo.png" class="img-fluid" alt="logo_ministério">
     <nav class="nav-items">
       <a href="#">Home</a>
       <a href="#">FAQ</a>
       <a href="#">Contato</a>
-      <a target="blank"  href="https://portal-dpagro.github.io/">Portal DPagro</a>
+      <a target="blank" href="https://dpagro-mre.github.io/portal-dpagro.github.io/"><img id="logo_header" src="images/portal_dpagro_header.svg" alt="portal_dpagro_logo"></a>
+      <!--<a target="blank"  href="https://portal-dpagro.github.io/">Portal DPagro</a>--> 
     </nav>
   </header>
   <main>
     <div class="intro">
-      <img src="images/Logo PortalDPAgro.svg" alt="logo_portaldpagro">
-      <!--<button>Saiba mais</button>-->
-
-  </div>
+      <div class="logo-portal">
+        <img src="images/Logo PortalDPAgro.svg" class="img-fluid" alt="logo_portaldpagro">
+      </div>
+      <div class="background-image">
+        <img src="images/imagem_campo.jpg" class="img-fluid" alt="imagem_campo">
+      </div>
+    </div>
     <div class="description">
       <img src="images/dpagro-fundo-branco-grande.png" alt="dpagro">
       <div class="text-decription">
@@ -42,10 +47,10 @@
   <footer class="footer">
     <div class='footer-logos'>
       <a href="https://www.gov.br/mre/pt-br" target="blank">
-        <img src="images/Logo MRE.svg" alt="assinatura_mre">
+        <img id="logo_mre" src="images/Logo MRE.svg" class="img-fluid" alt="assinatura_mre">
       </a>
       <a href="https://www.gov.br/pt-br" target="blank">
-        <img src="images/Logo Governo Federal.svg" alt="logo_governo_federal">
+        <img id="logo_gov" src="images/Logo Governo Federal.svg" class="img-fluid" alt="logo_governo_federal">
       </a>
     </div>
     <div class="portal-footer">

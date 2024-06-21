@@ -5,6 +5,7 @@ body, html{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans';
 }
 
 /* CSS for header */
@@ -15,6 +16,7 @@ body, html{
   background-color: #16214A;
   font-family: 'Open Sans';
 }
+
 
 .header .logo {
   font-size: 25px;
@@ -37,9 +39,13 @@ body, html{
   padding: 35px 20px;
 }
 
-/* CSS for main element */
+#logo_header{
+  margin-top: cente;
+
+}
 
 .intro {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -47,12 +53,32 @@ body, html{
   font-family: 'Open Sans';
   width: 100%;
   height: 520px;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80");
+  /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80");*/
   background-size: cover;
   background-position: center;
-  background-image: url(/images/imagem_campo.jpg);
+  /*background-image: url(/images/imagem_campo.jpg);*/
   background-repeat: no-repeat;
 }
+
+.logo-portal{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.background-image{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.background-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 
 .intro img{
   height: 50%;
@@ -180,5 +206,11 @@ body, html{
 
 .portal-footer p{
   color: #f4f4f4;
-  
+  font-weight: lighter;
+
+
+}
+
+.footer-logos{
+  display: flexbox;
 }
